@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="6.216">
+    <testcase classname="Login Test" name="Title of your scenario outline" time="6.089">
+        <system-out>
+            <![CDATA[Given I am on the Ebay Home Page............................................passed
+When I enter the username and password......................................passed
+Then I should be able to login successfully.................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-08T04:11:02.869Z",
+        "line": 5,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "login-test;title-of-your-scenario-outline",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5413550300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the Ebay Home Page",
+            "match": {
+              "location": "stepDefinitions.LoginSteps.i_am_on_the_ebay_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the username and password",
+            "match": {
+              "location": "stepDefinitions.LoginSteps.i_enter_the_testerlifealways_gmail_com_and_nsdl()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 620140600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be able to login successfully",
+            "match": {
+              "location": "stepDefinitions.LoginSteps.i_should_be_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@web"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "  I want to login to Ebay",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "classpath:features/login.feature",
+    "tags": []
+  }
+]
